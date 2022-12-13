@@ -5,8 +5,8 @@ use IEEE.numeric_std.all;
 
 entity conversor is
     port (
-        conv_in : std_logic_vector(4 downto 0);
-        conv_out: std_logic_vector(4 downto 0);
+        conv_in : std_logic_vector(4 downto 0); --entrando em bit de Complemento de 2 
+        conv_out: std_logic_vector(4 downto 0); --saindo em bit de Excesso de K
         error_out:std_logic;
     );
 end conversor;

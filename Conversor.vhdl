@@ -21,5 +21,6 @@ begin
     conv_out(2) => (conv_in(1) and conv_in(2)) or (conv_in(0) and conv_in(2)) or (not conv_in(2) and not conv_in(1) and not conv_in(0));
     conv_out(1) => (conv_in(1) and conv_in(0)) or (not conv_in(1) and not conv_in(0));
     conv_out(0) => not conv_in(0);
+    error_out   => '1' when conv_in(4) = '1' and conv_in(3 downto 0) = '0';
 
 end architecture;

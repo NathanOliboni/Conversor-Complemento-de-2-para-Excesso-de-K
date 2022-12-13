@@ -9,8 +9,6 @@ entity demux2x6 is
         z1: out std_logic_vector(4 downto 0);
         sel: in std_logic;
         c: in std_logic_vector(4 downto 0)
-        
-    
     );
 end entity;
 

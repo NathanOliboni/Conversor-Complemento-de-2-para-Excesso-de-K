@@ -17,7 +17,7 @@ end entity;
 architecture descomutar of demux2x6 is
 begin
     -- atribuição condicional
-    z0 <= c when sel = '0' else
-    z1 when sel = '1' else(others => 'Z');
+    z0 <= c when sel = '0';
+    z1 <= c when sel = '1';
 
 end architecture;

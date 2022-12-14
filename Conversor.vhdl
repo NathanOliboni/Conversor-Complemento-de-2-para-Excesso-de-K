@@ -6,7 +6,7 @@ use IEEE.numeric_std.all;
 entity conversor is
     port (
         conv_in : in std_logic_vector(4 downto 0); --entrando em bit de Complemento de 2 
-        conv_out: in std_logic_vector(4 downto 0); --saindo em bit de Excesso de K
+        conv_out: out std_logic_vector(4 downto 0); --saindo em bit de Excesso de K
         error_out: out std_logic
     );
 end conversor;

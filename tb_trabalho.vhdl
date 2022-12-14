@@ -93,6 +93,9 @@ begin
     sc0 <= "01111";
     wait for 10 ns;
     
+    sc0 <= "10000";
+    wait for 10 ns;
+    
     sc0 <= "10001";
     wait for 10 ns;
     
@@ -141,9 +144,6 @@ begin
     ssel<= '1';
     wait for 10 ns;
     
-    sc0 <= "10000"; --saída do Erro (Em teoria)
-    wait for 10 ns;
-
     wait;
     end process;
 

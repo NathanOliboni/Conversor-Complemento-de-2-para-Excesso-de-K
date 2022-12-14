@@ -42,14 +42,109 @@ begin
   
   u_teste : process
     begin
-    ssel<= '0';
+
     sc0 <= "00000";
     wait for 10 ns;
+    
     sc0 <= "00001";
     wait for 10 ns;
+    
     sc0 <= "00010";
+    wait for 10 ns;
+    
+    sc0 <= "00011"
+    wait for 10 ns;
+    
+    sc0 <= "00100"
+    wait for 10 ns;
+    
+    sc0 <= "00101"
+    wait for 10 ns;
+    
+    sc0 <= "00110"
+    wait for 10 ns;
+    
+    sc0 <= "00111"
+    wait for 10 ns;
+    
+    sc0 <= "01000"
+    wait for 10 ns;
+    
+    sc0 <= "01001"
+    wait for 10 ns;
+    
+    sc0 <= "01010"
+    wait for 10 ns;
+    
+    sc0 <= "01011"
+    wait for 10 ns;
+    
+    sc0 <= "01100"
+    wait for 10 ns;
+    
+    sc0 <= "01101"
+    wait for 10 ns;
+    
+    sc0 <= "01110"
+    wait for 10 ns;
+    
+    sc0 <= "01111"
+    wait for 10 ns;
+    
+    sc0 <= "10000" --saída do Erro (Em teoria)
+    wait for 10 ns;
+    
+    sc0 <= "10001"
+    wait for 10 ns;
+    
+    sc0 <= "10010"
+    wait for 10 ns;
+    
+    sc0 <= "10011"
+    wait for 10 ns;
+    
+    sc0 <= "10100"
+    wait for 10 ns;
+    
+    sc0 <= "10101"
+    wait for 10 ns;
+    
+    sc0 <= "10110"
+    wait for 10 ns;
+    
+    sc0 <= "10111"
+    wait for 10 ns;
+    
+    sc0 <= "11000"
+    wait for 10 ns;
+    
+    sc0 <= "11001"
+    wait for 10 ns;
+    
+    sc0 <= "11010"
+    wait for 10 ns;
+    
+    sc0 <= "11011"
+    wait for 10 ns;
+    
+    sc0 <= "11100"
+    wait for 10 ns;
+    
+    sc0 <= "11101"
+    wait for 10 ns;
+    
+    sc0 <= "11110"
+    wait for 10 ns;
+
+    sc0 <= "11111"
     wait for 10 ns;
     
     ssel<= '1';
     wait for 10 ns;
-    
+
+    ssel<= '0';
+    wait for 10 ns;
+    wait;
+    end process;
+
+end architecture;

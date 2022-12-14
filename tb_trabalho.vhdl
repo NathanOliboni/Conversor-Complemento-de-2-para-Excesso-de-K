@@ -1,4 +1,4 @@
-library library IEEE;
+library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
@@ -28,7 +28,7 @@ end component;
     port (
         conv_in : std_logic_vector(4 downto 0);
         conv_out: std_logic_vector(4 downto 0);
-        error_out:std_logic;
+        error_out:std_logic
     );
 end component;
 
@@ -52,91 +52,91 @@ begin
     sc0 <= "00010";
     wait for 10 ns;
     
-    sc0 <= "00011"
+    sc0 <= "00011";
     wait for 10 ns;
     
-    sc0 <= "00100"
+    sc0 <= "00100";
     wait for 10 ns;
     
-    sc0 <= "00101"
+    sc0 <= "00101";
     wait for 10 ns;
     
-    sc0 <= "00110"
+    sc0 <= "00110";
     wait for 10 ns;
     
-    sc0 <= "00111"
+    sc0 <= "00111";
     wait for 10 ns;
     
-    sc0 <= "01000"
+    sc0 <= "01000";
     wait for 10 ns;
     
-    sc0 <= "01001"
+    sc0 <= "01001";
     wait for 10 ns;
     
-    sc0 <= "01010"
+    sc0 <= "01010";
     wait for 10 ns;
     
-    sc0 <= "01011"
+    sc0 <= "01011";
     wait for 10 ns;
     
-    sc0 <= "01100"
+    sc0 <= "01100";
     wait for 10 ns;
     
-    sc0 <= "01101"
+    sc0 <= "01101";
     wait for 10 ns;
     
-    sc0 <= "01110"
+    sc0 <= "01110";
     wait for 10 ns;
     
-    sc0 <= "01111"
+    sc0 <= "01111";
     wait for 10 ns;
     
-    sc0 <= "10000" --saída do Erro (Em teoria)
+    sc0 <= "10000"; --saída do Erro (Em teoria)
     wait for 10 ns;
     
-    sc0 <= "10001"
+    sc0 <= "10001";
     wait for 10 ns;
     
-    sc0 <= "10010"
+    sc0 <= "10010";
     wait for 10 ns;
     
-    sc0 <= "10011"
+    sc0 <= "10011";
     wait for 10 ns;
     
-    sc0 <= "10100"
+    sc0 <= "10100";
     wait for 10 ns;
     
-    sc0 <= "10101"
+    sc0 <= "10101";
     wait for 10 ns;
     
-    sc0 <= "10110"
+    sc0 <= "10110";
     wait for 10 ns;
     
-    sc0 <= "10111"
+    sc0 <= "10111";
     wait for 10 ns;
     
-    sc0 <= "11000"
+    sc0 <= "11000";
     wait for 10 ns;
     
-    sc0 <= "11001"
+    sc0 <= "11001";
     wait for 10 ns;
     
-    sc0 <= "11010"
+    sc0 <= "11010";
     wait for 10 ns;
     
-    sc0 <= "11011"
+    sc0 <= "11011";
     wait for 10 ns;
     
-    sc0 <= "11100"
+    sc0 <= "11100";
     wait for 10 ns;
     
-    sc0 <= "11101"
+    sc0 <= "11101";
     wait for 10 ns;
     
-    sc0 <= "11110"
+    sc0 <= "11110";
     wait for 10 ns;
 
-    sc0 <= "11111"
+    sc0 <= "11111";
     wait for 10 ns;
     
     ssel<= '1';
@@ -147,4 +147,4 @@ begin
     wait;
     end process;
 
-end architecture; --BY Nathan Oliboni and Gabriel Yudi
+end architecture;
